@@ -18,6 +18,7 @@ try:
     with open("Encrypt.txt", 'a') as f:
         f.write(encrypt(text))
         f.write("\n")
+    print("Your text is now successfully encrypted.")
 
 except ValueError:
     pass
